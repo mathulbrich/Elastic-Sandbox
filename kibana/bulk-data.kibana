@@ -1,0 +1,5 @@
+# Add documents in batch
+
+POST products/_bulk
+{"index": {"_id": 1}}
+{"id":"PROD-0001","name":"Coca-Cola 2L","description":"Refrigerante Coca-Cola 2L em garrafa plástica.","price":4.99,"in_stock":45,"sellers":[{"name":"Otto Mata","sold":13,"last_sold":"2019-04-03"},{"name":"Giselle Mercer","sold":4,"last_sold":"2019-06-12"},{"name":"Emilija Gray","sold":10,"last_sold":"2019-07-10"},{"name":"Fabio Dunlop","sold":27,"last_sold":"2018-02-28"},{"name":"Monet Summers","sold":4,"last_sold":"2019-03-15"},{"name":"Kenny Dodd","sold":41,"last_sold":"2019-07-18"}]}
