@@ -1,6 +1,3 @@
-# Create index template
-
-PUT /products
 {
   "settings": {
     "number_of_replicas": 0,
