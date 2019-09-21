@@ -1,0 +1,15 @@
+{
+  "suggest": {
+    "text": "complete",
+    "sales_suggest": {
+      "term": {
+        "field": "sales_channel"
+      }
+    },
+    "status_suggest": {
+      "term": {
+        "field": "status"
+      }
+    }
+  }
+}
