@@ -15,6 +15,7 @@ services:
       - "9200:9200"
     volumes:
       - "./es_data:/usr/share/elasticsearch/data"
+      - "./es_config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml"
   kibana:
     image: docker.elastic.co/kibana/kibana:6.3.2
     ports:
