@@ -1,0 +1,7 @@
+single_node/es_data/nodes/
+multi_nodes/es_data/nodes/
+example/typescript/node_modules/
+example/typescript/coverage/
+example/typescript/.vscode/
+example/typescript/dist/
+example/typescript/.nyc_output
